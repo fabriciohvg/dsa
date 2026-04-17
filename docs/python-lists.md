@@ -111,11 +111,11 @@ positive_doubled = [x * 2 for x in nums if x > 0]
 
 ## Time Complexity (Big O)
 
-| Operation | Complexity |
-|---|---|
-| Access by index | O(1) |
-| Append | O(1) amortized |
-| Insert/Delete at index | O(n) |
-| Search (`in`) | O(n) |
-| Sort | O(n log n) |
-| `len()` | O(1) |
+| Operation              | Complexity     |
+| ---------------------- | -------------- |
+| Access by index        | O(1)           |
+| Append                 | O(1) amortized |
+| Insert/Delete at index | O(n)           |
+| Search (`in`)          | O(n)           |
+| Sort                   | O(n log n)     |
+| `len()`                | O(1)           |
